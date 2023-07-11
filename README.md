@@ -42,6 +42,26 @@ Note that you will need to install the necessary R packages listed in the `code/
 
 The resulting plots and analysis will be saved in the `output/` directory.
 
+### Reproducing by using pre-simulated data
+1- Clone the repository 
+```
+git clone https://github.com/aseyq/reciprocity_under_conflict.git
+```
+
+2- Download `.parquet` files from the Dropbox link (805 MB)
+https://www.dropbox.com/sh/zu6czzbl1jiscmq/AACE0-A3NiDN2Q98zk9R6QQ9a?dl=0
+
+3- Extract the `.parquet` files (`df_aggregate_payoffs.parquet`, `df_coop.parquet`, `df_long.parquet` in the folder `output/processeddata`
+
+4- Install the required R packages if necessarry
+```
+cd code/analysis
+RScript requirements.R
+```
+5- Run the following scripts
+  - Plots in the paper: `paper_plots.R`
+  - SI: `si_plots.R`, `si_basefit.R`, `si_moran.R`
+
 ### Reproducing by running the simulations
 1- Clone the repository 
 ```
