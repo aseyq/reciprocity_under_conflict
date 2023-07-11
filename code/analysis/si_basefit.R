@@ -20,7 +20,7 @@ default_parameters <- c(
     'mistake_rate' = 0.005,
     'moran_r' = 0.5)
 
-df_long <- read_parquet("data/longdata_parquet/df_long.parquet", as_data_frame = TRUE)
+df_long <- read_parquet("output/processeddata/df_long.parquet", as_data_frame = TRUE)
 
 glimpse(df_long) # take a look at the data
 
@@ -167,7 +167,7 @@ ggsave(filename="plots/figure5_rep1.png", plot=figure5, width = 9, height = 4.5,
 
 
 # Figure 6.a Cooperation rates
-df_coop <- read_parquet("data/longdata_parquet/df_coop.parquet", as_data_frame = TRUE)
+df_coop <- read_parquet("output/processeddata/df_coop.parquet", as_data_frame = TRUE)
 
 
 
@@ -242,7 +242,7 @@ ggsave(filename="plots/si_figure6a_rep1.png", plot=figure6a, width = 5, height =
 
 
 # Figure 6.b Welfare
-df_aggregate_payoffs <- read_parquet("data/longdata_parquet/df_aggregate_payoffs.parquet")
+df_aggregate_payoffs <- read_parquet("output/processeddata/df_aggregate_payoffs.parquet")
 
 figure6b <- df_aggregate_payoffs  %>% 
     filter(

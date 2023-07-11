@@ -1,3 +1,5 @@
 ignore/
 output/simulationdata/*.csv
+venv/
+plots/*.png
 *__pycache__

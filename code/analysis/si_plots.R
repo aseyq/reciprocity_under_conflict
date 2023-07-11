@@ -12,7 +12,7 @@ print(here()) # here should work most of the time to find your project root,
 setwd(here())
 source('code/analysis/definitions.R')
 
-df_long <- read_parquet("data/longdata_parquet/df_long.parquet", as_data_frame = TRUE)
+df_long <- read_parquet("output/processeddata/df_long.parquet", as_data_frame = TRUE)
 
 glimpse(df_long)
 
@@ -238,4 +238,5 @@ df_long  %>%
         theme_bw()
 
 ggsave("plots/SI_generation_240_prob_rep0_8.png")
+
 
