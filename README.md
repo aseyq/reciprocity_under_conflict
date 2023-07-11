@@ -42,6 +42,37 @@ Note that you will need to install the necessary R packages listed in the `code/
 
 The resulting plots and analysis will be saved in the `output/` directory.
 
+### Reproducing by running the simulations
+1- Clone the repository 
+```
+git clone https://github.com/aseyq/reciprocity_under_conflict.git
+```
+2- Go to downloaded folder
+```
+cd reciprocity_under_conflict
+```
+3- (Optional but recommended) Create a Python virtual environment,
+```
+python3 -m venv venv
+```
+and activate it
+
+(MacOS and Ubuntu)
+```
+source venv/bin/activate
+```
+
+(Windows)
+```
+venv\Scripts\activate
+```
+4- Install required packages
+
+```
+cd code/simulation
+pip install -r requirements.txt
+```
+
 ## Citation
 
 If you use our materials for your own research, please cite our original paper using the following reference:
