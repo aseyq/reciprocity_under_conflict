@@ -73,6 +73,12 @@ cd code/simulation
 pip install -r requirements.txt
 ```
 
+5- Run simulations 
+Please note that might take long time even with the default reduced number of parameters. The paper uses 1000 generations and 1000 iterations while the reproduction code has 500 generations and 10 iterations. You can change it by modifying line 23 and 23 in `simulate.py`
+```
+python3 simulate.py
+```
+
 ## Citation
 
 If you use our materials for your own research, please cite our original paper using the following reference:
