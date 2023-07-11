@@ -73,6 +73,11 @@ cd code/simulation
 pip install -r requirements.txt
 ```
 
+5- Run simulations (might take long even with the default reduced number of parameters)
+```
+python3 simulate.py
+```
+
 ## Citation
 
 If you use our materials for your own research, please cite our original paper using the following reference:
