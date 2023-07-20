@@ -54,6 +54,7 @@ Remove the demo files that are already there
 rm *.parquet
 ```
 
+Download the files
 ```
 wget "https://www.dropbox.com/scl/fi/62bn7bziqjq5k8spocf96/df_aggregate_payoffs.parquet?rlkey=bg5k5yddm3ln5ceza1c3y8qxk&dl=1" -O df_aggregate_payoffs.parquet
 ```
