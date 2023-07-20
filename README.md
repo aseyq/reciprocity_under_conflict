@@ -129,9 +129,9 @@ pip install -r requirements.txt
 ```
 
 5- Run simulations 
-Please note that it might take some time even with the default reduced number of parameters. 
+The paper uses 1000 generations and 1000 iterations while the reproduction code has 300 generations and 12 iterations. This is sufficient to test to code but not to replicate the results. You set these numbers closer to the original number of generations and iterations by modifying lines 23 and 24 in `simulate.py`. 
 
-The paper uses 1000 generations and 1000 iterations while the reproduction code has 300 generations and 12 iterations. This is sufficient to test to code but not to replicate the results. You set these numbers closer to original number of generations and iterations by modifying line 23 and 24 in `simulate.py`. 
+Please note that it might take some time, even with the default reduced number of parameters. With the computer we tested it takes about 17 minutes. One should expect to wait 80-120 hours for the complete dataset to run. 
 
 ```
 python3 simulate.py
