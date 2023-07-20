@@ -20,8 +20,8 @@ base_fitnesses = [0.01]
 mutation_rates = [0.001]
 moran_rs = [0.5]
 
-num_generations = 1000 # 1000 in the original
-num_sims_each = 30 ## 1000 in the original
+num_generations = 300 # 1000 in the original
+num_sims_each = 12 ## 1000 in the original
 
 ## full parameters 
 # mistake_rates = [0.005, 0.05]
