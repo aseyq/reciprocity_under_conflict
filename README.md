@@ -185,6 +185,13 @@ Rscript si_moran.R
 ### Hardware requirements
 Any modern personal computer or server that supports Windows, MacOS, or Linux operating system with enough RAM (at least 4 GB recommended.) The original simulations take a long time and generate data around 2GBs. Some of the operations like combining the data files after the simulations might require larger RAM depending on the number of simulation parameters. But if you once convert it to parquet (or download the `parquet` files we provided), you wouldn't need to use a memory as big as the dataset as it uses Apache arrow (arrow) to solve this issue.
 
+We tested this repository with a following machine:
+Processor	Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz   2.59 GHz
+32,0 GB Ram
+
+
+
+
 ## Software Requirements
 You need to have Python 3 (used 3.8) for simulations and R (used 4.2.3) for the analysis.
 
@@ -201,6 +208,8 @@ R packages
 - purr (1.0.0)
 - forcats (1.0.0)
 - string (1.5.0)
+
+We tested this repository on Windows 11 and Ubuntu 18
 
 ## Citation
 
