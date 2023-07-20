@@ -56,10 +56,32 @@ df_types  <- df_combined  %>%
     )) %>%
     # convert it to long form "typename__max" "typename_min" etc for all types
     pivot_longer(
-        cols = defector__std:cooperator__max,
+        cols = c(
+          "defector__std",
+          "defector__mean",
+          "defector__min",
+          "defector__max",
+          "prob05__std",
+          "prob05__mean",
+          "prob05__min",
+          "prob05__max",
+          "match__std",
+          "match__mean",
+          "match__min",
+          "match__max",
+          "mismatch__std",
+          "mismatch__mean",
+          "mismatch__min",
+          "mismatch__max",
+          "cooperator__std",
+          "cooperator__mean",
+          "cooperator__min",
+          "cooperator__max"
+        ),
         names_to = c("type", ".value"),
         names_sep = "__"
     )
+
 
 df_payoffs  <- df_combined  %>%
     # select parameters and type n reladed vaiablesg()
