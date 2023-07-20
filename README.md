@@ -96,7 +96,7 @@ Rscript si_moran.R
 ```
 git clone https://github.com/aseyq/reciprocity_under_conflict.git
 ```
-2- Go to downloaded folder
+2- Go to the downloaded folder
 ```
 cd reciprocity_under_conflict
 ```
@@ -134,7 +134,7 @@ The paper uses 1000 generations and 1000 iterations while the reproduction code 
 python3 simulate.py
 ```
 
-6- Combine CSV files created by the simulation
+6- Combine CSV files created by the simulation (might take a couple of minutes)
 
 ```
 cd code/analysis
@@ -153,14 +153,14 @@ Rscript 2_convert_parquet.R
 
 This should convert csv file to parquet data which and create `combined.parquet` in `output/combineddata` folder.
 
-8- Reshape data into a long format and generate additional tables
+8- Reshape data into a long format and generate additional tables (might take a couple of minutes)
 ```
 Rscript 3_reshape_data.R
 ```
 
 This should create `df_aggregate_payoffs.parquet`, `df_coop.parquet` and df_long.parquet` in the processed data folder `output/processeddata`. Then you can run the scripts to regenerate the analyses in the paper.
 
-9- Go to `code/analysis` folder execute the following scripts
+9- Go to `code/analysis` folder execute the following scripts to create plots in `plots/` folder. (Takes few minutes)
   - Plots in the paper: `paper_plots.R`
 ```
 Rscript paper_plots.R
@@ -183,7 +183,7 @@ Rscript si_moran.R
 
 ## System Requirements
 ### Hardware requirements
-Any modern personal computer or server that supports Windows, MacOS, or Linux operating system with enough RAM (at least 4 GB Recommended)
+Any modern personal computer or server that supports Windows, MacOS, or Linux operating system with enough RAM (at least 4 GB recommended.) The original simulations take a long time and generate data around 2GBs. Some of the operations like combining the data files after the simulations might require larger RAM depending on the number of simulation parameters. But if you once convert it to parquet (or download the `parquet` files we provided), you wouldn't need to use a memory as big as the dataset as it uses Apache arrow (arrow) to solve this issue.
 
 ## Software Requirements
 You need to have Python 3 (used 3.8) for simulations and R (used 4.2.3) for the analysis.
