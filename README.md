@@ -121,6 +121,12 @@ After these steps, you should have the processed data stored in `output/processe
   - Plots in the paper: `paper_plots.R`
   - SI: `si_plots.R`, `si_basefit.R`, `si_moran.R`
 
+## System Requirements
+### Hardware requirements
+Any modern personal computer or server that supports Windows, MacOS, or Linux operating system with enough RAM (at least 4 GB Recommended)
+
+## Software Requirements
+
 
 ## Citation
 
