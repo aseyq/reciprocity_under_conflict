@@ -8,7 +8,6 @@ import collections
 import copy
 import pdb
 import csv
-# from datafile import DataFile
 
 from attackerdefender.agent import Agent
 from attackerdefender.group import Group
