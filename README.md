@@ -193,7 +193,7 @@ Rscript si_basefit.R
 Rscript si_moran.R
 ```
 
-## Just demo the code generating the plots in the paper with an example data
+### Just demo the code generating the plots in the paper with the example data in the repository
 
 1- Clone the repository 
 ```
