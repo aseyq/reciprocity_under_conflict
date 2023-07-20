@@ -1,10 +1,8 @@
 # Reciprocity under conflict: Replication Materials
 
-Thank you for your interest in our study on reciprocity under conflict. This repository provides all the materials necessary to replicate our study.
+This repository provides all the materials necessary to replicate our study.
 
-**Please note that this repository is still under construction. We are working on the documentation and scripts to make it easier to reproduce our results.**
-
-## Contents
+## Contents of this repository
 
 The repository contains the following items:
 
@@ -17,9 +15,9 @@ The repository contains the following items:
 
 There are two ways to reproduce the results of our study:
 
-**1. Simuate the study on your machine**
+**1. Simulate the study on your machine**
 
-You can reproduce our results by running the simulation code on your machine. Note that running the simulation code with every possible parameter combination may take a considerable amount of time. (Several days on a standard machine with 8 cores). 
+You can reproduce our results by running the simulation code on your machine. Note that running the simulation code with every possible parameter combination may take considerable time. (Several days on a standard machine with eight cores). However, you can still run it with fewer iterations and without the robustness check parameters. Indeed default parameters in this repository are a reduced version. You can find those parameters in `code/simulation/simulate.py` and comment in the full parameter set.
 
 **2. Use Our Precomputed Data**
 
