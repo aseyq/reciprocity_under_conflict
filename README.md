@@ -134,7 +134,21 @@ After these steps, you should have the processed data stored in `output/processe
 Any modern personal computer or server that supports Windows, MacOS, or Linux operating system with enough RAM (at least 4 GB Recommended)
 
 ## Software Requirements
+You need to have Python 3 (used 3.8) for simulations and R (used 4.2.3) for the analysis.
 
+Additionally, we used the following packages (and their dependencies) which can be installed automatically using requirements files in the repository:
+
+Python packages:
+- Numpy 1.22
+- Pandas 2.0.3
+- joblib 1.3.1
+- Pytest 6.2.5
+
+R packages
+- dplyr (1.1.0)
+- purr (1.0.0)
+- forcats (1.0.0)
+- string (1.5.0)
 
 ## Citation
 
