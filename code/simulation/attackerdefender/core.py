@@ -13,6 +13,3 @@ import csv
 from attackerdefender.agent import Agent
 from attackerdefender.group import Group
 from attackerdefender.population import Population
-
-# TODO Decide what should be numpy arrays and what should be python base lists and implement
-
