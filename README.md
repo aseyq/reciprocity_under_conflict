@@ -42,7 +42,7 @@ git clone https://github.com/aseyq/reciprocity_under_conflict.git
 2- Download `.parquet` files from the Dropbox link (805 MB) and extract the `.parquet` files (`df_aggregate_payoffs.parquet`, `df_coop.parquet`, `df_long.parquet` in the folder `output/processeddata`
 https://www.dropbox.com/sh/zu6czzbl1jiscmq/AACE0-A3NiDN2Q98zk9R6QQ9a?dl=0
 
-Alternatively, you can use wget to download the files in `output/processeddata`:
+Alternatively, you can use wget to download the files using command line to `output/processeddata`:
 ```
 cd reciprocity_under_conflict
 cd output/processeddata
