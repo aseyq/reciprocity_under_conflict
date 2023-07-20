@@ -44,8 +44,9 @@ https://www.dropbox.com/sh/zu6czzbl1jiscmq/AACE0-A3NiDN2Q98zk9R6QQ9a?dl=0
 
 3- Extract the `.parquet` files (`df_aggregate_payoffs.parquet`, `df_coop.parquet`, `df_long.parquet` in the folder `output/processeddata`
 
-4- Install the required R packages if necessarry
+4- Install the required R packages if necessary
 ```
+cd reciprocity_under_conflict
 cd code/analysis
 RScript requirements.R
 ```
