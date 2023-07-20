@@ -209,7 +209,7 @@ R packages
 - forcats (1.0.0)
 - string (1.5.0)
 
-We tested this repository on Windows 11 and Ubuntu 18
+We tested this repository on Windows 11 and Ubuntu 18 Linux operating systems.
 
 ## Citation
 
