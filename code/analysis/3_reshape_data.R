@@ -27,7 +27,6 @@ df_types  <- df_combined  %>%
     # select parameters and type n reladed vaiables
     select(c(
         population:mistake_rate,
-        prob05__size:defector__max,
         defector__size,
         defector__std,
         defector__mean,
@@ -57,7 +56,7 @@ df_types  <- df_combined  %>%
     )) %>%
     # convert it to long form "typename__max" "typename_min" etc for all types
     pivot_longer(
-        cols = prob05__std:defector__max,
+        cols = defector__std:cooperator__max,
         names_to = c("type", ".value"),
         names_sep = "__"
     )
