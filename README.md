@@ -158,7 +158,7 @@ This should convert csv file to parquet data which and create `combined.parquet`
 Rscript 3_reshape_data.R
 ```
 
-This should create `df_aggregate_payoffs.parquet`, `df_coop.parquet` and df_long.parquet` in the processed data folder `output/processeddata`. Then you can run the scripts to regenerate the analyses in the paper.
+This should create `df_aggregate_payoffs.parquet`, `df_coop.parquet` and df_long.parquet` in the processed data folder `output/processeddata`. Then you can run the scripts to regenerate the analyses in the paper. At this point, you can delete the previous data generated and keep only the data in `processeddata` folder.
 
 9- Go to `code/analysis` folder execute the following scripts to create plots in `plots/` folder. (Takes few minutes)
   - Plots in the paper: `paper_plots.R`
