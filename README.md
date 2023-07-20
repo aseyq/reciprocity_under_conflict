@@ -61,6 +61,14 @@ RScript requirements.R
   - Plots in the paper: `paper_plots.R`
   - SI: `si_plots.R`, `si_basefit.R`, `si_moran.R`
 
+```
+Rscript paper_plots.R
+Rscript si_plots.R
+Rscript si_basefit.R
+Rscript si_moran.R
+```
+  
+
 ### Reproducing by running the simulations
 1- Clone the repository 
 ```
