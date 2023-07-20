@@ -134,10 +134,10 @@ The paper uses 1000 generations and 1000 iterations while the reproduction code 
 python3 simulate.py
 ```
 
-6- Combine CSV files created by the simulation (might take a couple of minutes)
+6- Go to `code/analysis` folder and combine CSV files created by the simulation (might take a couple of minutes)
 
 ```
-cd code/analysis
+cd ../code/analysis
 ```
 
 ```
