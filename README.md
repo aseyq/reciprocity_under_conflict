@@ -46,9 +46,9 @@ Alternatively, you can use wget to download the files in `output/processeddata`:
 ```
 cd reciprocity_under_conflict
 cd output/processeddata
-wget "https://www.dropbox.com/scl/fi/62bn7bziqjq5k8spocf96/df_aggregate_payoffs.parquet?rlkey=bg5k5yddm3ln5ceza1c3y8qxk&dl=1"
-wget "https://www.dropbox.com/scl/fi/ob4bba2s41ao015l9cf4d/df_coop.parquet?rlkey=f5pbpps68i1u4lmzvm2qzpcib&dl=1"
-wget "https://www.dropbox.com/scl/fi/z0ninjglk72kh4jiz0ds9/df_long.parquet?rlkey=y0zbhe0m37o0dr0nosmoevd1i&dl=1"
+wget "https://www.dropbox.com/scl/fi/62bn7bziqjq5k8spocf96/df_aggregate_payoffs.parquet?rlkey=bg5k5yddm3ln5ceza1c3y8qxk&dl=1" -O df_aggregate_payoffs.parquet
+wget "https://www.dropbox.com/scl/fi/ob4bba2s41ao015l9cf4d/df_coop.parquet?rlkey=f5pbpps68i1u4lmzvm2qzpcib&dl=1" -O df_coop.parquet
+wget "https://www.dropbox.com/scl/fi/z0ninjglk72kh4jiz0ds9/df_long.parquet?rlkey=y0zbhe0m37o0dr0nosmoevd1i&dl=1" -O df_long.parquet
 ```
 
 4- Install the required R packages if necessary
