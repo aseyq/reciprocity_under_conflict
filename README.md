@@ -39,14 +39,21 @@ The resulting plots and analysis will be saved in the `plots/` directory.
 git clone https://github.com/aseyq/reciprocity_under_conflict.git
 ```
 
-2- Download `.parquet` files from the Dropbox link (805 MB)
+2- Download `.parquet` files from the Dropbox link (805 MB) and extract the `.parquet` files (`df_aggregate_payoffs.parquet`, `df_coop.parquet`, `df_long.parquet` in the folder `output/processeddata`
 https://www.dropbox.com/sh/zu6czzbl1jiscmq/AACE0-A3NiDN2Q98zk9R6QQ9a?dl=0
 
-3- Extract the `.parquet` files (`df_aggregate_payoffs.parquet`, `df_coop.parquet`, `df_long.parquet` in the folder `output/processeddata`
+Alternatively, you can use wget to download the files in `output/processeddata`:
+```
+cd reciprocity_under_conflict
+cd output/processeddata
+wget "https://www.dropbox.com/scl/fi/62bn7bziqjq5k8spocf96/df_aggregate_payoffs.parquet?rlkey=bg5k5yddm3ln5ceza1c3y8qxk&dl=1"
+wget "https://www.dropbox.com/scl/fi/ob4bba2s41ao015l9cf4d/df_coop.parquet?rlkey=f5pbpps68i1u4lmzvm2qzpcib&dl=1"
+wget "https://www.dropbox.com/scl/fi/z0ninjglk72kh4jiz0ds9/df_long.parquet?rlkey=y0zbhe0m37o0dr0nosmoevd1i&dl=1"
+```
 
 4- Install the required R packages if necessary
 ```
-cd reciprocity_under_conflict
+(go to the main folder of the reciprocity if you are not)ls
 cd code/analysis
 RScript requirements.R
 ```
