@@ -53,7 +53,7 @@ wget "https://www.dropbox.com/scl/fi/z0ninjglk72kh4jiz0ds9/df_long.parquet?rlkey
 
 4- Install the required R packages if necessary
 ```
-(go to the main folder of the reciprocity if you are not)ls
+# (go to the main folder `reciprocity_under_conflict` if you are not)
 cd code/analysis
 RScript requirements.R
 ```
