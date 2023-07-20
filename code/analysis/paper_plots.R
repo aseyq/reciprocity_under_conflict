@@ -20,7 +20,7 @@ default_parameters <- c(
     'mistake_rate' = 0.005,
     'moran_r' = 0.5)
 
-df_long <- read_parquet("../../output/processeddata/df_long.parquet", as_data_frame = TRUE)
+df_long <- read_parquet("output/processeddata/df_long.parquet", as_data_frame = TRUE)
 
 glimpse(df_long) # take a look at the data
 
