@@ -20,15 +20,21 @@ base_fitnesses = [0.01]
 mutation_rates = [0.001]
 moran_rs = [0.5]
 
-num_generations = 500 # 1000 in the original
-num_sims_each = 10 ## 1000 in the original
+num_generations = 1000 # 1000 in the original
+num_sims_each = 30 ## 1000 in the original
 
+## full parameters 
+# mistake_rates = [0.005, 0.05]
+# population_sizes = [240, 120, 60]
+# base_fitnesses = [0.1, 0.01]
+# mutation_rates = [0.01, 0.001]
+# moran_rs = [0.5]
+
+# you can change the number of cores used according to the your 
+# machine specifications
 num_cores =  8
 
-
-
 ## Here we loop for different parameters
-
 currentsim = 0
 for ps in popstr:
     for pr in prob_reps:
